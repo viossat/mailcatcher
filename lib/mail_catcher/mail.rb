@@ -14,7 +14,7 @@ module MailCatcher::Mail extend self
             recipients TEXT,
             subject TEXT,
             source BLOB,
-            size TEXT,
+            size INTEGER,
             type TEXT,
             created_at DATETIME DEFAULT CURRENT_DATETIME
           )

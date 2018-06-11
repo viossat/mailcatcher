@@ -23,9 +23,9 @@ module EventMachine
   end
 end
 
-require "mail_catcher/version"
-
 module MailCatcher extend self
+  VERSION = Gem.loaded_specs["mailcatcher"].version
+
   autoload :Events, "mail_catcher/events"
   autoload :Mail, "mail_catcher/mail"
   autoload :Smtp, "mail_catcher/smtp"

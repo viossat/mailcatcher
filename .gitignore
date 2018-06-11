@@ -1,13 +1,14 @@
 # Caches
 /.bundle
-/.sass-cache
+/.cache
 
-# Gemfile locks ignored for gems
-/Gemfile.lock
+# Dependencies
+/node_modules
+/vendor/bundle
 
 # Generated documentation and assets
 /doc
-/public/assets
+/public
 
-# Build gems
+# Built gems
 *.gem
