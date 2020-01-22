@@ -40,7 +40,7 @@ class MailCatcher
         mousemove: (e) =>
           e.preventDefault()
           @resizeTo e.clientY
-      window.bind(events)
+      $(window).bind(events)
 
     @resizeToSaved()
 
